@@ -1,0 +1,11 @@
+source_record_id,project_id,ramp_id,panel_id,station_start,station_end,record_type,pay_item,length_m,width_m,thickness_or_depth_m,rise_m,run_m,crossfall_m,source_value,unit,note
+FC-001,CR-46,R-46A,,0+000,0+014,field_concrete_dimension,CR-CONC,7.4,2.42,0.15,,,,2.6862,m3,ramp A field dimensions
+FC-002,CR-46,R-46B,,0+014,0+028,field_concrete_dimension,CR-CONC,6.8,2.5,0.15,,,,2.55,m3,ramp B field dimensions
+FC-003,CR-46,R-46C,,0+048,0+060,field_concrete_dimension,CR-CONC,5.6,2.2,0.17,,,,2.0944,m3,ramp C increased thickness
+FC-004,CR-46,R-46B,DW-02,0+014,0+018,detectable_warning_check,DW-TILE,1.22,,,,,,,m2,tile width blank on checklist
+FC-005,CR-46,R-46B,,0+014,0+028,subbase_depth_check,SUBBASE,6.8,2.5,,,,,,m3,compacted depth blank
+FC-006,CR-46,R-46A,,0+006,0+006,cross_slope_check,SLOPE-SURVEY,,,,,,0.061,2.542,%,cross slope field check
+FC-007,CR-46,R-46B,,0+021,0+021,running_slope_check,SLOPE-SURVEY,,,,0.62,6.8,,9.118,%,running slope field check
+FC-008,CR-46,,,0+000,0+024,curb_length_check,CURB-M,24.4,,,,,,24.4,m,north curb field length
+FC-008-DUP,CR-46,,,0+000,0+024,curb_length_check,CURB-M,24.4,,,,,,24.4,m,duplicate checklist export of FC-008
+FC-009,CR-46,,,0+000,0+060,closeout_reference,CLOSEOUT,,,,,,,,text,closeout_reference blank

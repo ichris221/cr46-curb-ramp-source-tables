@@ -1,0 +1,10 @@
+source_record_id,project_id,ramp_id,panel_id,station,survey_point_id,measurement_type,design_ref_record_id,design_elevation_m,asbuilt_elevation_m,rise_m,run_m,crossfall_m,width_m,source_value,unit,note
+SV-001,CR-46,R-46A,,0+000,EL-A-LOW,elevation,DQ-016,100.12,100.118,,,,,100.118,m,as-built low point
+SV-002,CR-46,R-46A,,0+014,EL-A-HIGH,elevation,DQ-017,100.54,100.552,,,,,100.552,m,high point after grinding
+SV-002-DUP,CR-46,R-46A,,0+014,EL-A-HIGH,elevation,DQ-017,100.54,100.552,,,,,100.552,m,duplicate total station export of SV-002
+SV-003,CR-46,R-46B,,0+028,EL-B-HIGH,elevation,DQ-019,100.79,100.765,,,,,100.765,m,high point shot after concrete patch
+SV-004,CR-46,R-46A,,0+007,RS-A,running_slope,DQ-013,,,0.434,7.2,,,6.028,%,as-built running slope from rise/run
+SV-005,CR-46,R-46B,,0+021,RS-B,running_slope,DQ-014,,,0.62,6.8,,,9.118,%,as-built running slope exceeds internal limit
+SV-006,CR-46,R-46A,,0+006,XS-A,cross_slope,DQ-015,,,,,0.061,2.4,2.542,%,as-built cross slope
+SV-007,CR-46,R-46C,,0+052,EL-C-LAND,elevation,DQ-020,100.33,100.342,,,,,100.342,m,landing elevation shot
+SV-008,CR-46,,DA-01,0+042,DRIVE-LIP,elevation,,,99.884,,,,,99.884,m,no design elevation in design extract

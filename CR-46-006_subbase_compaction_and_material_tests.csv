@@ -1,0 +1,7 @@
+source_record_id,project_id,lot_id,station_start,station_end,test_type,pay_item,test_report_id,source_value,unit,requirement,test_date,note
+MT-001,CR-46,SB-01,0+000,0+030,subbase compaction,SUBBASE,TR-SB-0612-01,96.2,%,95.0 percent minimum,2026-06-12,meets minimum
+MT-002,CR-46,SB-02,0+030,0+060,subbase compaction,SUBBASE,,93.7,%,95.0 percent minimum,2026-06-12,test report ID blank and result below minimum
+MT-003,CR-46,CA-01,0+000,0+014,concrete compressive strength,CR-CONC,TR-CA-0709-01,30.1,MPa,30.0 MPa minimum,2026-07-09,meets minimum
+MT-004,CR-46,DWT-02,0+014,0+018,detectable warning manufacturer certificate,DW-TILE,,0.0,text,certificate required,2026-06-14,certificate ID missing for DW-02 tile lot
+MT-005,CR-46,SL-01,0+000,0+014,concrete slump,CR-CONC,TR-SL-0611-01,150.0,mm,75 to 125 mm,2026-06-11,above specified band
+MT-001-DUP,CR-46,SB-01,0+000,0+030,subbase compaction,SUBBASE,TR-SB-0612-01,96.2,%,95.0 percent minimum,2026-06-12,duplicate lab export of MT-001

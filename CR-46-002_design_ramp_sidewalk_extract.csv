@@ -1,0 +1,21 @@
+source_record_id,project_id,record_type,ramp_id,panel_id,station_start,station_end,pay_item,item_description,length_m,width_m,thickness_m,rise_m,run_m,crossfall_m,design_elevation_m,source_value,unit,design_ref_note
+DQ-001,CR-46,design_quantity,R-46A,,0+000,0+014,CR-CONC,ramp A concrete volume,7.2,2.4,0.15,,,,,2.592,m3,length x width x thickness
+DQ-002,CR-46,design_quantity,R-46B,,0+014,0+028,CR-CONC,ramp B concrete volume,6.8,2.5,0.15,,,,,2.55,m3,length x width x thickness
+DQ-003,CR-46,design_quantity,R-46C,,0+048,0+060,CR-CONC,ramp C concrete volume,5.6,2.2,0.15,,,,,1.848,m3,length x width x thickness
+DQ-004,CR-46,design_quantity,,SW-01,0+000,0+018,SIDEWALK,sidewalk panel SW-01 area,18.0,2.0,,,,,,36.0,m2,length x width
+DQ-005,CR-46,design_quantity,,SW-02,0+018,0+040,SIDEWALK,sidewalk panel SW-02 area,22.0,2.0,,,,,,44.0,m2,length x width
+DQ-006,CR-46,design_quantity,,DA-01,0+036,0+048,DRIVE-APRON,driveway apron DA-01 area,7.5,4.2,,,,,,31.5,m2,length x width
+DQ-007,CR-46,design_quantity,R-46A,,0+000,0+014,SUBBASE,ramp A subbase volume,7.2,2.4,0.15,,,,,2.592,m3,length x width x compacted depth
+DQ-008,CR-46,design_quantity,R-46B,,0+014,0+028,SUBBASE,ramp B subbase volume,6.8,2.5,0.15,,,,,2.55,m3,length x width x compacted depth
+DQ-009,CR-46,design_quantity,R-46C,,0+048,0+060,SUBBASE,ramp C subbase volume,5.6,2.2,0.15,,,,,1.848,m3,length x width x compacted depth
+DQ-010,CR-46,design_quantity,R-46A,DW-01,0+000,0+004,DW-TILE,detectable warning tile DW-01,1.22,0.61,,,,,,0.7442,m2,tile length x tile width
+DQ-011,CR-46,design_quantity,R-46B,DW-02,0+014,0+018,DW-TILE,detectable warning tile DW-02,1.22,0.61,,,,,,0.7442,m2,tile length x tile width
+DQ-012,CR-46,design_quantity,R-46C,DW-03,0+048,0+052,DW-TILE,detectable warning tile DW-03,1.22,0.61,,,,,,0.7442,m2,tile length x tile width
+DQ-013,CR-46,design_slope,R-46A,,0+000,0+014,SLOPE-SURVEY,ramp A running slope design,,,,0.42,7.2,,,5.833,%,rise divided by run x 100
+DQ-014,CR-46,design_slope,R-46B,,0+014,0+028,SLOPE-SURVEY,ramp B running slope design,,,,0.58,6.8,,,8.529,%,rise divided by run x 100; exceeds internal maximum
+DQ-015,CR-46,design_slope,R-46A,,0+000,0+014,SLOPE-SURVEY,ramp A cross slope design,,,,,,0.035,,1.458,%,crossfall divided by width x 100
+DQ-016,CR-46,design_elevation,R-46A,EL-A-LOW,0+000,0+000,ELEV,ramp A low point elevation,,,,,,,100.12,100.12,m,design elevation point
+DQ-017,CR-46,design_elevation,R-46A,EL-A-HIGH,0+014,0+014,ELEV,ramp A high point elevation,,,,,,,100.54,100.54,m,design elevation point
+DQ-018,CR-46,design_elevation,R-46B,EL-B-LOW,0+014,0+014,ELEV,ramp B low point elevation,,,,,,,100.21,100.21,m,design elevation point
+DQ-019,CR-46,design_elevation,R-46B,EL-B-HIGH,0+028,0+028,ELEV,ramp B high point elevation,,,,,,,100.79,100.79,m,design elevation point
+DQ-020,CR-46,design_elevation,R-46C,EL-C-LAND,0+052,0+052,ELEV,ramp C landing elevation,,,,,,,100.33,100.33,m,design elevation point
